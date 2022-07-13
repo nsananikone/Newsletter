@@ -12,7 +12,7 @@ app.get("/", function (req, res) {
 });
 
 mailChimp.setConfig({
-  apiKey: "de97333b3e334f1c66c06072081bd8fe-us13",
+  apiKey: "SECRET_API",
   server: "us13",
 });
 
@@ -54,9 +54,3 @@ app.post("/failure", function (req, res) {
 app.listen(process.env.PORT || 3000, function () {
   console.log("Server is running on port 3000");
 });
-
-// App Key
-// 5585724c1de7b9e487ca68a1d473ffbe-us13
-
-// List ID
-// 5489165ef8
